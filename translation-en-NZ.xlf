@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-NZ" original="Please update this value">
+    <body>
+      <group id="body">
+        <trans-unit id="Codeunit 1728714760 - NamedType 69957804" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no links attached to this document. Do you want to continue?</source>
+          <target>There are no links attached to this document. Do you want to continue?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Stepped Approval Mgt. - NamedType ThereAreNoLinksAttachedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1728714760 - NamedType 3201321488" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workflow %1 does not support %2 %3.</source>
+          <target>Workflow %1 does not support %2 %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Stepped Approval Mgt. - NamedType WorkflowDoesNotSupportTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3651018391 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Allocation Codes</source>
+          <target>Purchase Allocation Codes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purchase Allocation Codes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recipient Created Tax Invoice</source>
+          <target>Recipient Created Tax Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - ReportDataItem 727806043 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posted Purchase Invoice</source>
+          <target>Posted Purchase Invoice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - ReportDataItem DataItem3733 - Property RequestFilterHeading</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 2578066365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>No. of Copies</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control NoOfCopies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 316520822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Internal Information</source>
+          <target>Show Internal Information</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control ShowInternalInfo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 816368762 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target>Log Interaction</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control LogInteraction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 1471725394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Total In Words</source>
+          <target>Show Total In Words</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control AmountInWords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 3269755819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show LCY for FCY</source>
+          <target>Show LCY for FCY</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control CurrencyLCY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - Control 1454125892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show TH Amount In Words</source>
+          <target>Show TH Amount In Words</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - Control ShowTHFormatting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchaser</source>
+          <target>Purchaser</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1</source>
+          <target>Total %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Incl. VAT</source>
+          <target>Total %1 Incl. GST</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>COPY</source>
+          <target>COPY</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase - Invoice %1</source>
+          <target>Purchase - Invoice %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page %1</source>
+          <target>Page %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total %1 Excl. VAT</source>
+          <target>Total %1 Excl. GST</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount Specification in </source>
+          <target>GST Amount Specification in </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local Currency</source>
+          <target>Local Currency</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exchange rate: %1/%2</source>
+          <target>Exchange rate: %1/%2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase - Prepayment Invoice %1</source>
+          <target>Purchase - Prepayment Invoice %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1% VAT</source>
+          <target>%1% GST</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Amount</source>
+          <target>GST Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 174841471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Terms:</source>
+          <target>Terms:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Sales_Invoice_Header___Due_Date_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 2085891935" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Ref:</source>
+          <target>Vendor Ref:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Purch__Inv__Header___Vendor_Invoice_No__CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 4273291949" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tax Invoice No.:</source>
+          <target>Tax Invoice No.:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Order_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 4142699255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RECIPIENT CREATED TAX INVOICE</source>
+          <target>RECIPIENT CREATED TAX INVOICE</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Remittance_AdviceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 886384357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ABN :</source>
+          <target>ABN :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Vendor_ABN_No_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3285233284" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total (Excl. GST)</source>
+          <target>Total (Excl. GST)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 907390335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor ABN:</source>
+          <target>Vendor ABN:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType Vendor_ABN_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 3352401206" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EFT Payment to</source>
+          <target>EFT Payment to</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType EFT_Payment_toCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3938046433 - NamedType 903024335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Account Name</source>
+          <target>Account Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Recipient Created Tax Invoice - NamedType AccountName_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3689841946 - Field 735126522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EFT Bank Reference No. Series</source>
+          <target>EFT Bank Reference No. Series</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000006 - Field EFT Bank Reference No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 839176907 - Field 965398636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Lodgement Reference</source>
+          <target>Vendor Lodgement Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000009 - Field Vendor Lodgement Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 839176907 - Field 3208179471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Reference</source>
+          <target>Bank Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000009 - Field Bank Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2850558037 - Action 924741803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto Populate</source>
+          <target>Auto Populate</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Level Based Approvals - Action Auto Populate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3925630203 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Allocation Lines</source>
+          <target>Purch. Allocation Lines</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purchase Allocation Subform - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2137916439 - Field 4180527768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lodgement Reference</source>
+          <target>Lodgement Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000014 - Field Lodgement Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4051006290 - Field 3208179471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Reference</source>
+          <target>Bank Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000017 - Field Bank Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3153573404 - Field 3208179471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Reference</source>
+          <target>Bank Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000022 - Field Bank Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1670969417 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purch. Allocation Code Card</source>
+          <target>Purch. Allocation Code Card</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purchase Allocation Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1670969417 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Purchase Allocation Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3789335855 - NamedType 1440380952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <target>Total</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Carepoint Trial Balance - NamedType TotalCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 3789335855 - NamedType 2993619085" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report includes simulation entries.</source>
+          <target>This report includes simulation entries.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Carepoint Trial Balance - NamedType SimulationEntriesLbl</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 302908365 - Field 3493235989 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Service % Based,Drivers Based,Drivers Based 2 (Different Charge Acc)</source>
+          <target> ,Service % Based,Drivers Based,Drivers Based 2 (Different Charge Acc)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000029 - Field Cost Allocation Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 495163686 - Field 3208179471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Reference</source>
+          <target>Bank Reference</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension tableextension70000031 - Field Bank Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 3511954185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Text Files (*.txt)|*.txt|All Files (*.*)|*.*</source>
+          <target>Text Files (*.txt)|*.txt|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text003a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 1837457132" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Microsoft Excel Files (*.xl*)|*.xl*|All Files (*.*)|*.*</source>
+          <target>Microsoft Excel Files (*.xl*)|*.xl*|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text004a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 4023442027" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Word Documents (*.doc)|*.doc|All Files (*.*)|*.*</source>
+          <target>Word Documents (*.doc)|*.doc|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text005a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 211855502" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XML files (*.xml)|*.xml|All Files (*.*)|*.*</source>
+          <target>XML files (*.xml)|*.xml|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text006a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 2439417101" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HTM files (*.htm)|*.htm|All Files (*.*)|*.*</source>
+          <target>HTM files (*.htm)|*.htm|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text007a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 764920048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XML Schema Files (*.xsd)|*.xsd|All Files (*.*)|*.*</source>
+          <target>XML Schema Files (*.xsd)|*.xsd|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text008a</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1174278710 - NamedType 2992481647" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XSL Transform Files(*.xslt)|*.xslt|All Files (*.*)|*.*</source>
+          <target>XSL Transform Files(*.xslt)|*.xslt|All Files (*.*)|*.*</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Carepoint Management - NamedType Text009a</note>
+        </trans-unit>
+        <trans-unit id="Report 319281961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remittance Advice Non Summary</source>
+          <target>Remittance Advice Non Summary</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Non-Sum - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 319281961 - NamedType 4142699255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remittance Advice</source>
+          <target>Remittance Advice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Non-Sum - NamedType Remittance_AdviceCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 319281961 - NamedType 3345511261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Paid</source>
+          <target>Amount Paid</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Non-Sum - NamedType Amount_PaidCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 319281961 - NamedType 4283493138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount</source>
+          <target>Original Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Non-Sum - NamedType Original_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 319281961 - NamedType 1218149294" size-unit="char" translate="yes" xml:space="preserve">
+          <source>TOTAL</source>
+          <target>TOTAL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Non-Sum - NamedType Payment_Amount_CaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remittance Advice Summary</source>
+          <target>Remittance Advice Summary</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Options</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - Control 3158431365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Dimensions</source>
+          <target>Show Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - Control ShowDim - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be filtered when you post recurring journals.</source>
+          <target>%1 cannot be filtered when you post recurring journals.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text000</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 or %2 must be specified.</source>
+          <target>%1 or %2 must be specified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be specified.</source>
+          <target>%1 must be specified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 + %2 must be %3.</source>
+          <target>%1 + %2 must be %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be " " when %2 is %3.</source>
+          <target>%1 must be " " when %2 is %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1, %2, %3 or %4 must not be completed when %5 is %6.</source>
+          <target>%1, %2, %3 or %4 must not be completed when %5 is %6.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text005</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be negative.</source>
+          <target>%1 must be negative.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be positive.</source>
+          <target>%1 must be positive.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have the same sign as %2.</source>
+          <target>%1 must have the same sign as %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be specified.</source>
+          <target>%1 cannot be specified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be Yes.</source>
+          <target>%1 must be Yes.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 + %2 must be -%3.</source>
+          <target>%1 + %2 must be -%3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must have a different sign than %2.</source>
+          <target>%1 must have a different sign than %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must only be a closing date for G/L entries.</source>
+          <target>%1 must only be a closing date for G/L entries.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not within your allowed range of posting dates.</source>
+          <target>%1 is not within your allowed range of posting dates.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The lines are not listed according to Posting Date because they were not entered in that order.</source>
+          <target>The lines are not listed according to Posting Date because they were not entered in that order.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text015</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is a gap in the number series.</source>
+          <target>There is a gap in the number series.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text016</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 or %2 must be G/L Account or Bank Account.</source>
+          <target>%1 or %2 must be G/L Account or Bank Account.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text017</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 857534312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be 0.</source>
+          <target>%1 must be 0.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text018</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be specified when using recurring journals.</source>
+          <target>%1 cannot be specified when using recurring journals.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be %2 when %3 = %4.</source>
+          <target>%1 must not be %2 when %3 = %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allocations can only be used with recurring journals.</source>
+          <target>Allocations can only be used with recurring journals.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please specify %1 in the %2 allocation lines.</source>
+          <target>Please specify %1 in the %2 allocation lines.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1302975608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Month Text&gt;</source>
+          <target>&lt;Month Text&gt;</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text023</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 posted on %3, must be separated by an empty line</source>
+          <target>%1 %2 posted on %3, must be separated by an empty line</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is out of balance by %3.</source>
+          <target>%1 %2 is out of balance by %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3216065459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The reversing entries for %1 %2 are out of balance by %3.</source>
+          <target>The reversing entries for %1 %2 are out of balance by %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text026</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3853762076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1, the lines are out of balance by %2.</source>
+          <target>As of %1, the lines are out of balance by %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text027</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2747277865" size-unit="char" translate="yes" xml:space="preserve">
+          <source>As of %1, the reversing entries are out of balance by %2.</source>
+          <target>As of %1, the reversing entries are out of balance by %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text028</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3384974482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total of the lines is out of balance by %1.</source>
+          <target>The total of the lines is out of balance by %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text029</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1148659762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The total of the reversing entries is out of balance by %1.</source>
+          <target>The total of the reversing entries is out of balance by %1.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text030</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 510963145" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 does not exist.</source>
+          <target>%1 %2 does not exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text031</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 4168233824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2 for %3 %4.</source>
+          <target>%1 must be %2 for %3 %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text032</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2424052996" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 %3 does not exist.</source>
+          <target>%1 %2 %3 does not exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text036</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1786356379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be %2.</source>
+          <target>%1 must be %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text037</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 342054122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The currency %1 cannot be found. Please check the currency table.</source>
+          <target>The currency %1 cannot be found. Please check the currency table.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text038</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3999324801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales %1 %2 already exists.</source>
+          <target>Sales %1 %2 already exists.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text039</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1404403683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase %1 %2 already exists.</source>
+          <target>Purchase %1 %2 already exists.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text040</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2042100300" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be entered.</source>
+          <target>%1 must be entered.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text041</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2679796917" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be filled when %2 is different in %3 and %4.</source>
+          <target>%1 must not be filled when %2 is different in %3 and %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text042</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3317493534" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 must not have %3 = %4.</source>
+          <target>%1 %2 must not have %3 = %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text043</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3148584511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be specified in fixed asset journal lines.</source>
+          <target>%1 must not be specified in fixed asset journal lines.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text044</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3786281128" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be specified in fixed asset journal lines.</source>
+          <target>%1 must be specified in fixed asset journal lines.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text045</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 129010449" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be different than %2.</source>
+          <target>%1 must be different than %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text046</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 766707066" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 and %2 must not both be %3.</source>
+          <target>%1 and %2 must not both be %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text047</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2211009323" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1  must not be specified when %2 = %3.</source>
+          <target>%1  must not be specified when %2 = %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text048</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2848705940" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be specified when %2 = %3.</source>
+          <target>%1 must not be specified when %2 = %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text049</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 612391220" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be specified together with %1 = %2.</source>
+          <target>must not be specified together with %1 = %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text050</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 4269661899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be identical to %2.</source>
+          <target>%1 must be identical to %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text051</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1887784454" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 cannot be a closing date.</source>
+          <target>%1 cannot be a closing date.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text052</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1250087837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not within your range of allowed posting dates.</source>
+          <target>%1 is not within your range of allowed posting dates.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text053</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2356572048" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insurance integration is not activated for %1 %2.</source>
+          <target>Insurance integration is not activated for %1 %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text054</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1718875431" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must not be specified when %1 is specified.</source>
+          <target>must not be specified when %1 is specified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text055</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3631965282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When G/L integration is not activated, %1 must not be posted in the general journal.</source>
+          <target>When G/L integration is not activated, %1 must not be posted in the general journal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text056</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2994268665" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When G/L integration is not activated, %1 must not be specified in the general journal.</source>
+          <target>When G/L integration is not activated, %1 must not be specified in the general journal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text057</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 4100752876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be specified.</source>
+          <target>%1 must not be specified.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text058</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3463056259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The combination of Customer and Gen. Posting Type Purchase is not allowed.</source>
+          <target>The combination of Customer and Gen. Posting Type Purchase is not allowed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text059</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 888923493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The combination of Vendor and Gen. Posting Type Sales is not allowed.</source>
+          <target>The combination of Vendor and Gen. Posting Type Sales is not allowed.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text060</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1526620110" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Balance and Reversing Balance recurring methods can be used only with Allocations.</source>
+          <target>The Balance and Reversing Balance recurring methods can be used only with Allocations.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text061</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3908497555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be 0.</source>
+          <target>%1 must not be 0.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text062</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 251226876" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder,Refund</source>
+          <target>Document,Payment,Invoice,Credit Memo,Finance Charge Memo,Reminder,Refund</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text063</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2633104321" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is already used in line %3 (%4 %5).</source>
+          <target>%1 %2 is already used in line %3 (%4 %5).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text064</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3270800938" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be blocked with type %2 when %3 is %4</source>
+          <target>%1 must not be blocked with type %2 when %3 is %4</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text065</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1357711087" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot enter G/L Account or Bank Account in both %1 and %2.</source>
+          <target>You cannot enter G/L Account or Bank Account in both %1 and %2.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text066</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1995407704" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 is linked to %3 %4.</source>
+          <target>%1 %2 is linked to %3 %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text067</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2333225750" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be specified when %2 is %3.</source>
+          <target>%1 must not be specified when %2 is %3.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text069</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 76122678" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be specified when the document is not an intercompany transaction.</source>
+          <target>%1 must not be specified when the document is not an intercompany transaction.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text070</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3733393357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 does not exist.</source>
+          <target>%1 %2 does not exist.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text071</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3095696740" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be %2 for %3 %4.</source>
+          <target>%1 must not be %2 for %3 %4.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text072</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 2458000123" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 %2 already exists.</source>
+          <target>%1 %2 already exists.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Text073</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1277552847" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remittance Advice</source>
+          <target>Remittance Advice</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType General_Journal___TestCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Page</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType CurrReport_PAGENOCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 3345511261" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount Paid</source>
+          <target>Amount Paid</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Amount_PaidCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 4283493138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original Amount</source>
+          <target>Original Amount</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType Original_AmountCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 1583171122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PAYMENT AMOUNT</source>
+          <target>PAYMENT AMOUNT</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType TotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3085044206 - NamedType 304860833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>Dimensions</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Remittance Advice Summary - NamedType DimensionsCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Table 270444180 - NamedType 603392786" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table %1 must be empty to perform this action.</source>
+          <target>Table %1 must be empty to perform this action.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Level Based Approval - NamedType TableNotEmptyTxt</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

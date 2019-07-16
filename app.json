@@ -1,0 +1,23 @@
+{
+  "id": "df755cc3-a109-4d0e-8f6f-aae28275c98c",
+  "name": "Carepoint",
+  "publisher": "Remagine Solutions Pty Ltd",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.2",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 1,
+    "to": 999999999
+  },
+  "runtime": "2.0"
+}
