@@ -389,54 +389,54 @@ codeunit 16035600 "ePDF Management"
         IF NOT InitializeRecordVariables(DocCode, DocNo) THEN
             EXIT;
 
-        IF ISSERVICETIER THEN BEGIN
-            CASE DocCode OF
-                ePDFSetup."Purchase Order":
-                    PAGE.RUNMODAL(PAGE::"Purchase Order", recPurchHeader);
-                ePDFSetup."Purchase Invoice":
-                    PAGE.RUNMODAL(PAGE::"Purchase Invoice", recPurchHeader);
-                ePDFSetup."Purchase Quote":
-                    PAGE.RUNMODAL(PAGE::"Purchase Quote", recPurchHeader);
-                ePDFSetup."Purchase Return Order":
-                    PAGE.RUNMODAL(PAGE::"Purchase Return Order", recPurchHeader);
-                ePDFSetup."Posted Purchase Receipt":
-                    PAGE.RUNMODAL(PAGE::"Posted Purchase Receipt", recPurchRcptHeader);
-                ePDFSetup."Posted Purchase Invoice":
-                    PAGE.RUNMODAL(PAGE::"Posted Purchase Invoice", recPurchInvHeader);
-                ePDFSetup."Posted Purch Return Shipment":
-                    PAGE.RUNMODAL(PAGE::"Posted Return Shipment", recPurchReturnShipHeader);
-                ePDFSetup."Posted Purch Credit Memo":
-                    PAGE.RUNMODAL(PAGE::"Posted Purchase Credit Memo", recPurchCrMemoHeader);
-                ePDFSetup."Remittance Advice":
-                    MESSAGE('Kindly go to respective Payment Journal batch to view the details of Document No. %1.', DocNo);
-                ePDFSetup."Vendor Statement":
-                    PAGE.RUNMODAL(PAGE::"Vendor Card", recVend);
-                ePDFSetup."Sales Order":
-                    PAGE.RUNMODAL(PAGE::"Sales Order", recSalesHeader);
-                ePDFSetup."Sales Invoice":
-                    PAGE.RUNMODAL(PAGE::"Sales Invoice", recSalesHeader);
-                ePDFSetup."Sales Quote":
-                    PAGE.RUNMODAL(PAGE::"Sales Quote", recSalesHeader);
-                ePDFSetup."Sales Return Order":
-                    PAGE.RUNMODAL(PAGE::"Sales Return Order", recSalesHeader);
-                ePDFSetup."Posted Sales Shipment":
-                    PAGE.RUNMODAL(PAGE::"Posted Sales Shipment", recSalesShipHeader);
-                ePDFSetup."Posted Sales Invoice":
-                    PAGE.RUNMODAL(PAGE::"Posted Sales Invoice", recSalesInvHeader);
-                ePDFSetup."Posted Sales Return Receipt":
-                    PAGE.RUNMODAL(PAGE::"Posted Return Receipt", recSalesRetRcptHeader);
-                ePDFSetup."Posted Sales Credit Memo":
-                    PAGE.RUNMODAL(PAGE::"Posted Sales Credit Memo", recSalesCrMemoHeader);
-                ePDFSetup."Issued Finance Charge":
-                    PAGE.RUNMODAL(PAGE::"Issued Finance Charge Memo", recIssuedFinChargeMemoHeader);
-                ePDFSetup."Issued Reminder":
-                    PAGE.RUNMODAL(PAGE::"Issued Reminder", recIssuedReminderHeader);
-                ePDFSetup."Customer Statement":
-                    PAGE.RUNMODAL(PAGE::"Customer Card", recCust);
-                ePDFSetup."Transfer Order":
-                    PAGE.RUNMODAL(PAGE::"Transfer Order", recTransferHeader);
-            END;
+        //IF ISSERVICETIER THEN BEGIN
+        CASE DocCode OF
+            ePDFSetup."Purchase Order":
+                PAGE.RUNMODAL(PAGE::"Purchase Order", recPurchHeader);
+            ePDFSetup."Purchase Invoice":
+                PAGE.RUNMODAL(PAGE::"Purchase Invoice", recPurchHeader);
+            ePDFSetup."Purchase Quote":
+                PAGE.RUNMODAL(PAGE::"Purchase Quote", recPurchHeader);
+            ePDFSetup."Purchase Return Order":
+                PAGE.RUNMODAL(PAGE::"Purchase Return Order", recPurchHeader);
+            ePDFSetup."Posted Purchase Receipt":
+                PAGE.RUNMODAL(PAGE::"Posted Purchase Receipt", recPurchRcptHeader);
+            ePDFSetup."Posted Purchase Invoice":
+                PAGE.RUNMODAL(PAGE::"Posted Purchase Invoice", recPurchInvHeader);
+            ePDFSetup."Posted Purch Return Shipment":
+                PAGE.RUNMODAL(PAGE::"Posted Return Shipment", recPurchReturnShipHeader);
+            ePDFSetup."Posted Purch Credit Memo":
+                PAGE.RUNMODAL(PAGE::"Posted Purchase Credit Memo", recPurchCrMemoHeader);
+            ePDFSetup."Remittance Advice":
+                MESSAGE('Kindly go to respective Payment Journal batch to view the details of Document No. %1.', DocNo);
+            ePDFSetup."Vendor Statement":
+                PAGE.RUNMODAL(PAGE::"Vendor Card", recVend);
+            ePDFSetup."Sales Order":
+                PAGE.RUNMODAL(PAGE::"Sales Order", recSalesHeader);
+            ePDFSetup."Sales Invoice":
+                PAGE.RUNMODAL(PAGE::"Sales Invoice", recSalesHeader);
+            ePDFSetup."Sales Quote":
+                PAGE.RUNMODAL(PAGE::"Sales Quote", recSalesHeader);
+            ePDFSetup."Sales Return Order":
+                PAGE.RUNMODAL(PAGE::"Sales Return Order", recSalesHeader);
+            ePDFSetup."Posted Sales Shipment":
+                PAGE.RUNMODAL(PAGE::"Posted Sales Shipment", recSalesShipHeader);
+            ePDFSetup."Posted Sales Invoice":
+                PAGE.RUNMODAL(PAGE::"Posted Sales Invoice", recSalesInvHeader);
+            ePDFSetup."Posted Sales Return Receipt":
+                PAGE.RUNMODAL(PAGE::"Posted Return Receipt", recSalesRetRcptHeader);
+            ePDFSetup."Posted Sales Credit Memo":
+                PAGE.RUNMODAL(PAGE::"Posted Sales Credit Memo", recSalesCrMemoHeader);
+            ePDFSetup."Issued Finance Charge":
+                PAGE.RUNMODAL(PAGE::"Issued Finance Charge Memo", recIssuedFinChargeMemoHeader);
+            ePDFSetup."Issued Reminder":
+                PAGE.RUNMODAL(PAGE::"Issued Reminder", recIssuedReminderHeader);
+            ePDFSetup."Customer Statement":
+                PAGE.RUNMODAL(PAGE::"Customer Card", recCust);
+            ePDFSetup."Transfer Order":
+                PAGE.RUNMODAL(PAGE::"Transfer Order", recTransferHeader);
         END;
+        //END;
     end;
 
     procedure ShowRecipient(DocCode: Code[10]; DocNo: Code[20])
@@ -444,35 +444,35 @@ codeunit 16035600 "ePDF Management"
         IF NOT InitializeRecordVariables(DocCode, DocNo) THEN
             EXIT;
 
-        IF ISSERVICETIER THEN BEGIN
-            CASE DocCode OF
-                ePDFSetup."Purchase Order",
-                ePDFSetup."Purchase Invoice",
-                ePDFSetup."Purchase Quote",
-                ePDFSetup."Purchase Return Order",
-                ePDFSetup."Posted Purchase Receipt",
-                ePDFSetup."Posted Purchase Invoice",
-                ePDFSetup."Posted Purch Return Shipment",
-                ePDFSetup."Posted Purch Credit Memo",
-                ePDFSetup."Remittance Advice",
-                ePDFSetup."Vendor Statement":
-                    PAGE.RUNMODAL(PAGE::"Vendor Card", recVend);
-                ePDFSetup."Sales Order",
-                ePDFSetup."Sales Invoice",
-                ePDFSetup."Sales Quote",
-                ePDFSetup."Sales Return Order",
-                ePDFSetup."Posted Sales Shipment",
-                ePDFSetup."Posted Sales Invoice",
-                ePDFSetup."Posted Sales Return Receipt",
-                ePDFSetup."Posted Sales Credit Memo",
-                ePDFSetup."Issued Finance Charge",
-                ePDFSetup."Issued Reminder",
-                ePDFSetup."Customer Statement":
-                    PAGE.RUNMODAL(PAGE::"Customer Card", recCust);
-                ePDFSetup."Transfer Order":
-                    PAGE.RUNMODAL(PAGE::"Location Card", recLoc);
-            END;
+        //IF ISSERVICETIER THEN BEGIN
+        CASE DocCode OF
+            ePDFSetup."Purchase Order",
+            ePDFSetup."Purchase Invoice",
+            ePDFSetup."Purchase Quote",
+            ePDFSetup."Purchase Return Order",
+            ePDFSetup."Posted Purchase Receipt",
+            ePDFSetup."Posted Purchase Invoice",
+            ePDFSetup."Posted Purch Return Shipment",
+            ePDFSetup."Posted Purch Credit Memo",
+            ePDFSetup."Remittance Advice",
+            ePDFSetup."Vendor Statement":
+                PAGE.RUNMODAL(PAGE::"Vendor Card", recVend);
+            ePDFSetup."Sales Order",
+            ePDFSetup."Sales Invoice",
+            ePDFSetup."Sales Quote",
+            ePDFSetup."Sales Return Order",
+            ePDFSetup."Posted Sales Shipment",
+            ePDFSetup."Posted Sales Invoice",
+            ePDFSetup."Posted Sales Return Receipt",
+            ePDFSetup."Posted Sales Credit Memo",
+            ePDFSetup."Issued Finance Charge",
+            ePDFSetup."Issued Reminder",
+            ePDFSetup."Customer Statement":
+                PAGE.RUNMODAL(PAGE::"Customer Card", recCust);
+            ePDFSetup."Transfer Order":
+                PAGE.RUNMODAL(PAGE::"Location Card", recLoc);
         END;
+        //END;
     end;
 
     procedure InitializeRecordVariables(DocCode: Code[10]; DocNo: Code[20]): Boolean

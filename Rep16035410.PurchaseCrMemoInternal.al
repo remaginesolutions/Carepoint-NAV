@@ -558,7 +558,7 @@ report 16035410 "Purchase - Cr. Memo Internal"
                             IF NOT MoreLines THEN
                                 CurrReport.BREAK;
                             SETRANGE("Line No.", 0, "Line No.");
-                            CurrReport.CREATETOTALS("Line Amount", Amount, "Amount Including VAT", "Inv. Discount Amount");
+                            //CurrReport.CREATETOTALS("Line Amount", Amount, "Amount Including VAT", "Inv. Discount Amount");
 
                             PurchCrMemoLine.SETRANGE("Document No.", DataItem9869."No.");
                             PurchCrMemoLine.SETFILTER(Type, '<>%1', 0);
@@ -642,9 +642,9 @@ report 16035410 "Purchase - Cr. Memo Internal"
                         trigger OnPreDataItem()
                         begin
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                              //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                              //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VATCounterLCY; "Integer")
@@ -693,7 +693,7 @@ report 16035410 "Purchase - Cr. Memo Internal"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text008 + Text009
@@ -768,7 +768,7 @@ report 16035410 "Purchase - Cr. Memo Internal"
                         CopyText := FormatDocument.GetCOPYText;
                         OutputNo += 1;
                     END;
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
 
                     TotalSubTotal := 0;
                     TotalInvoiceDiscountAmount := 0;

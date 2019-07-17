@@ -13,9 +13,9 @@ report 16035414 "Deferrals Approval - Internal"
     {
         dataitem(DataItem17; "Posted Deferral Header")
         {
-            DataItemTableView = SORTING ("Deferral Doc. Type", "Account No.", "Posting Date", "Gen. Jnl. Document No.", "Document Type", "Document No.", "Line No.")
-                                ORDER(Ascending)
-                                WHERE ("Deferral Doc. Type" = CONST ("G/L"));
+            //DataItemTableView = SORTING ("Deferral Doc. Type", "Account No.", "Posting Date", "Gen. Jnl. Document No.", "Document Type", "Document No.", "Line No.")
+                                //ORDER(Ascending)
+                                //WHERE ("Deferral Doc. Type" = CONST ("G/L"));
             RequestFilterFields = "Account No.";
             column(CompanyName; COMPANYNAME)
             {
@@ -150,7 +150,7 @@ report 16035414 "Deferrals Approval - Internal"
             begin
                 PageGroupNo := 1;
 
-                CurrReport.NEWPAGEPERRECORD := PrintOnlyOnePerPage;
+                //CurrReport.NEWPAGEPERRECORD := PrintOnlyOnePerPage;
             end;
         }
     }

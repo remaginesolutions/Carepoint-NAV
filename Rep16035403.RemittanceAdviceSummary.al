@@ -88,9 +88,9 @@ report 16035403 "Remittance Advice Summary"
                 column(COMPANYNAME; COMPANYNAME)
                 {
                 }
-                column(CurrReport_PAGENO; CurrReport.PAGENO)
-                {
-                }
+                //column(CurrReport_PAGENO; CurrReport.PAGENO)
+                //{
+                //}
                 column(USERID; USERID)
                 {
                 }
@@ -374,10 +374,10 @@ report 16035403 "Remittance Advice Summary"
 
                         trigger OnPreDataItem()
                         begin
-                            IF ISSERVICETIER THEN BEGIN
+                            //IF ISSERVICETIER THEN BEGIN
                                 AmountLCY := 0;
                                 BalanceLCY := 0;
-                            END;
+                            //END;
 
                             SETRANGE(Number, 1, ErrorCounter);
                         end;
@@ -849,21 +849,21 @@ report 16035403 "Remittance Advice Summary"
                                 END;
                             END;
                         CheckBalance;
-                        IF ISSERVICETIER THEN BEGIN
+                        //IF ISSERVICETIER THEN BEGIN
                             AmountLCY := DataItem7024."Amount (LCY)";
                             BalanceLCY := DataItem7024."Balance (LCY)";
-                        END;
+                        //END;
                         gvWHTAmt := 0;
 
                     end;
 
                     trigger OnPreDataItem()
                     begin
-                        IF ISSERVICETIER THEN BEGIN
+                        //IF ISSERVICETIER THEN BEGIN
                             DataItem7024.COPYFILTER("Journal Template Name", DataItem3502."Journal Template Name");
                             DataItem7024.COPYFILTER(DataItem7024."Journal Batch Name", DataItem3502.Name);
                             GenJnlLineFilter := DataItem7024.GETFILTERS;
-                        END;
+                        //END;
                         GenJnlTemplate.GET(DataItem3502."Journal Template Name");
                         IF GenJnlTemplate.Recurring THEN BEGIN
                             IF GETFILTER("Posting Date") <> '' THEN
@@ -893,7 +893,7 @@ report 16035403 "Remittance Advice Summary"
                         GenJnlLine2.COPYFILTERS(DataItem7024);
 
                         GLAccNetChange.DELETEALL;
-                        CurrReport.CREATETOTALS("Amount (LCY)", "Balance (LCY)");
+                        //CurrReport.CREATETOTALS("Amount (LCY)", "Balance (LCY)");
                     end;
                 }
                 dataitem(ReconcileLoop; "Integer")
@@ -922,7 +922,7 @@ report 16035403 "Remittance Advice Summary"
 
             trigger OnAfterGetRecord()
             begin
-                CurrReport.PAGENO := 1;
+                //CurrReport.PAGENO := 1;
             end;
 
             trigger OnPreDataItem()
@@ -970,10 +970,10 @@ report 16035403 "Remittance Advice Summary"
 
     trigger OnPreReport()
     begin
-        IF ISSERVICETIER THEN BEGIN
+        //IF ISSERVICETIER THEN BEGIN
             DataItem7024.COPYFILTER("Journal Template Name", DataItem3502."Journal Template Name");
             DataItem7024.COPYFILTER(DataItem7024."Journal Batch Name", DataItem3502.Name);
-        END;
+        //END;
         GenJnlLineFilter := DataItem7024.GETFILTERS;
     end;
 

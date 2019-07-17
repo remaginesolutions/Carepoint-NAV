@@ -49,9 +49,9 @@ report 16035406 "Recipient Created Tax Invoice"
                     column(BuyFromAddr_6_; VendAddr[6])
                     {
                     }
-                    column(STRSUBSTNO_Text005_FORMAT_CurrReport_PAGENO__; FORMAT(CurrReport.PAGENO))
-                    {
-                    }
+                    //column(STRSUBSTNO_Text005_FORMAT_CurrReport_PAGENO__; FORMAT(CurrReport.PAGENO))
+                    //{
+                    //}
                     column(BuyFromAddr_3_; VendAddr[3])
                     {
                     }
@@ -302,8 +302,8 @@ report 16035406 "Recipient Created Tax Invoice"
 
                         trigger OnAfterGetRecord()
                         begin
-                            IF (LinePrinted = MaxVertLine) AND (LineCount > MaxVertLine) THEN
-                                CurrReport.NEWPAGE;
+                            //IF (LinePrinted = MaxVertLine) AND (LineCount > MaxVertLine) THEN
+                                //CurrReport.NEWPAGE;
 
                             IF (Type = Type::"G/L Account") AND (NOT ShowInternalInfo) THEN
                                 "No." := '';
@@ -322,10 +322,10 @@ report 16035406 "Recipient Created Tax Invoice"
                             VATAmountLine."Invoice Discount Amount" := "Inv. Discount Amount";
                             VATAmountLine.InsertLine;
 
-                            IF ISSERVICETIER THEN BEGIN
+                            //IF ISSERVICETIER THEN BEGIN
                                 AllowVATDisctxt := FORMAT(DataItem5707."Allow Invoice Disc.");
                                 PurchInLineTypeNo := DataItem5707.Type;
-                            END;
+                            //END;
                         end;
 
                         trigger OnPreDataItem()
@@ -340,9 +340,9 @@ report 16035406 "Recipient Created Tax Invoice"
                             IF NOT MoreLines THEN
                                 CurrReport.BREAK;
                             SETRANGE("Line No.", 0, "Line No.");
-                            CurrReport.CREATETOTALS("Line Amount", "Inv. Discount Amount", Amount, "Amount Including VAT");
+                            //CurrReport.CREATETOTALS("Line Amount", "Inv. Discount Amount", Amount, "Amount Including VAT");
 
-                            IF ISSERVICETIER THEN BEGIN
+                            //IF ISSERVICETIER THEN BEGIN
                                 PurchInvLine.SETRANGE("Document No.", DataItem3733."No.");
                                 PurchInvLine.SETFILTER(Type, '<>%1', 0);
                                 VATAmountText := '';
@@ -354,7 +354,7 @@ report 16035406 "Recipient Created Tax Invoice"
                                             VATAmountText := Text012;
                                     UNTIL PurchInvLine.NEXT = 0;
                                 END;
-                            END;
+                            //END;
 
                             LineCount := COUNT;
                         end;
@@ -392,9 +392,9 @@ report 16035406 "Recipient Created Tax Invoice"
                             IF VATAmountLine.GetTotalVATAmount = 0 THEN
                                 CurrReport.BREAK;
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                              //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                              //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VATCounterLCY; "Integer")
@@ -417,7 +417,7 @@ report 16035406 "Recipient Created Tax Invoice"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text007 + Text008
@@ -464,7 +464,7 @@ report 16035406 "Recipient Created Tax Invoice"
                         OutputNo := OutputNo + 1;
                         CopyText := Text003;
                     END;
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
                 end;
 
                 trigger OnPostDataItem()
@@ -584,7 +584,7 @@ report 16035406 "Recipient Created Tax Invoice"
                         SegManagement.LogDocument(
                           14, "No.", 0, 0, DATABASE::Vendor, "Buy-from Vendor No.", "Purchaser Code", '', "Posting Description", '');
 
-                IF ISSERVICETIER THEN
+                //IF ISSERVICETIER THEN
                     PricesInclVATtxt := FORMAT(DataItem3733."Prices Including VAT");
 
                 // CAREPOINT1.00 2015-10-13 Start:

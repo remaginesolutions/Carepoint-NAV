@@ -27,9 +27,9 @@ report 16035419 "G/L Trial Balance Carepoint"
             column(STRSUBSTNO_Text004_PreviousStartDate_; STRSUBSTNO(Text004, PreviousStartDate))
             {
             }
-            column(STRSUBSTNO_Text005_CurrReport_PAGENO_; STRSUBSTNO(Text005, CurrReport.PAGENO))
-            {
-            }
+            //column(STRSUBSTNO_Text005_CurrReport_PAGENO_; STRSUBSTNO(Text005, CurrReport.PAGENO))
+            //{
+            //}
             column(PageCaption; STRSUBSTNO(Text005, ''))
             {
             }
@@ -48,9 +48,9 @@ report 16035419 "G/L Trial Balance Carepoint"
             column(Text006; Text006Lbl)
             {
             }
-            column(G_L_Account__GETFILTER; DataItem6710.GETFILTER("G/L Entry Type Filter"))
-            {
-            }
+            //column(G_L_Account__GETFILTER; DataItem6710.GETFILTER("G/L Entry Type Filter"))
+            //{
+            //}
             column(G_L_Account__No__; "No.")
             {
             }

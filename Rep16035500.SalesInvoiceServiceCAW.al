@@ -746,7 +746,7 @@ report 16035500 "Sales - Invoice Service CAW"
                             IF NOT MoreLines THEN
                                 CurrReport.BREAK;
                             SETRANGE("Line No.", 0, "Line No.");
-                            CurrReport.CREATETOTALS("Line Amount", Amount, "Amount Including VAT", "Inv. Discount Amount");
+                            //CurrReport.CREATETOTALS("Line Amount", Amount, "Amount Including VAT", "Inv. Discount Amount");
                         end;
                     }
                     dataitem(VATCounter; "Integer")
@@ -793,9 +793,9 @@ report 16035500 "Sales - Invoice Service CAW"
                         trigger OnPreDataItem()
                         begin
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                              //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                              //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VatCounterLCY; "Integer")
@@ -839,7 +839,7 @@ report 16035500 "Sales - Invoice Service CAW"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text007 + Text008
@@ -908,7 +908,7 @@ report 16035500 "Sales - Invoice Service CAW"
                         CopyText := Text003;
                         OutputNo += 1;
                     END;
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
 
                     TotalSubTotal := 0;
                     TotalInvoiceDiscountAmount := 0;

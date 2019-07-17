@@ -251,7 +251,7 @@ report 16035417 "NDIS Sessions List"
             var
                 JobPlanningLine: Record "Job Planning Line";
             begin
-                CurrReport.PAGENO := 1;
+                //CurrReport.PAGENO := 1;
                 JobPlanningLine.SETRANGE("Job No.", "No.");
                 JobPlanningLine.SETFILTER("Planning Date", JobPlanningDateFilter);
                 IF NOT JobPlanningLine.FINDFIRST THEN

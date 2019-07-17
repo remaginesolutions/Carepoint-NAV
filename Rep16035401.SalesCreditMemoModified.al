@@ -580,7 +580,7 @@ report 16035401 "Sales - Credit Memo Modified"
                             IF NOT MoreLines THEN
                                 CurrReport.BREAK;
                             SETRANGE("Line No.", 0, "Line No.");
-                            CurrReport.CREATETOTALS(Amount, "Amount Including VAT", "Inv. Discount Amount");
+                            //CurrReport.CREATETOTALS(Amount, "Amount Including VAT", "Inv. Discount Amount");
 
                             // AP0090.begin
                             CurrencyCodeLCY := (DataItem8098."Currency Code" <> '') AND CurrencyLCY;
@@ -657,9 +657,9 @@ report 16035401 "Sales - Credit Memo Modified"
                             IF VATAmountLine.GetTotalVATAmount = 0 THEN
                                 CurrReport.BREAK;
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                              //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                              //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VATCounterLCY; "Integer")
@@ -702,7 +702,7 @@ report 16035401 "Sales - Credit Memo Modified"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text008 + Text009
@@ -775,7 +775,7 @@ report 16035401 "Sales - Credit Memo Modified"
 
                 trigger OnAfterGetRecord()
                 begin
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
                     IF Number > 1 THEN BEGIN
                         CopyText := Text004;
                         OutputNo += 1;

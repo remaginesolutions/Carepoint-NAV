@@ -568,7 +568,7 @@ report 16035409 "Purchase Invoice Internal"
                             IF NOT MoreLines THEN
                                 CurrReport.BREAK;
                             SETRANGE("Line No.", 0, "Line No.");
-                            CurrReport.CREATETOTALS("Line Amount", "Inv. Discount Amount", Amount, "Amount Including VAT");
+                            //CurrReport.CREATETOTALS("Line Amount", "Inv. Discount Amount", Amount, "Amount Including VAT");
 
                             PurchInvLine.SETRANGE("Document No.", DataItem3733."No.");
                             PurchInvLine.SETFILTER(Type, '<>%1', 0);
@@ -627,9 +627,9 @@ report 16035409 "Purchase Invoice Internal"
                         trigger OnPreDataItem()
                         begin
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                              //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                              //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VATCounterLCY; "Integer")
@@ -678,7 +678,7 @@ report 16035409 "Purchase Invoice Internal"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text007 + Text008
@@ -758,7 +758,7 @@ report 16035409 "Purchase Invoice Internal"
                         OutputNo := OutputNo + 1;
                         CopyText := FormatDocument.GetCOPYText;
                     END;
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
 
                     TotalSubTotal := 0;
                     TotalInvoiceDiscountAmount := 0;

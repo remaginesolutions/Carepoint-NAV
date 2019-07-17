@@ -524,7 +524,7 @@ report 16035404 "Purchase Order Modified"
                                 CurrReport.BREAK;
                             PurchLine.SETRANGE("Line No.", 0, PurchLine."Line No.");
                             SETRANGE(Number, 1, PurchLine.COUNT);
-                            CurrReport.CREATETOTALS(PurchLine."Line Amount", PurchLine."Inv. Discount Amount");
+                            //CurrReport.CREATETOTALS(PurchLine."Line Amount", PurchLine."Inv. Discount Amount");
                         end;
                     }
                     dataitem(VATCounter; "Integer")
@@ -600,9 +600,9 @@ report 16035404 "Purchase Order Modified"
                             IF VATAmount = 0 THEN
                                 CurrReport.BREAK;
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(
-                              VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
-                              VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
+                            //CurrReport.CREATETOTALS(
+                             //VATAmountLine."Line Amount", VATAmountLine."Inv. Disc. Base Amount",
+                             //VATAmountLine."Invoice Discount Amount", VATAmountLine."VAT Base", VATAmountLine."VAT Amount");
                         end;
                     }
                     dataitem(VATCounterLCY; "Integer")
@@ -650,7 +650,7 @@ report 16035404 "Purchase Order Modified"
                                 CurrReport.BREAK;
 
                             SETRANGE(Number, 1, VATAmountLine.COUNT);
-                            CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
+                            //CurrReport.CREATETOTALS(VALVATBaseLCY, VALVATAmountLCY);
 
                             IF GLSetup."LCY Code" = '' THEN
                                 VALSpecLCYHeader := Text007 + Text008
@@ -862,11 +862,11 @@ report 16035404 "Purchase Order Modified"
 
                         trigger OnPreDataItem()
                         begin
-                            CurrReport.CREATETOTALS(
-                              PrepmtInvBuf.Amount, PrepmtInvBuf."Amount Incl. VAT",
-                              PrepmtVATAmountLine."Line Amount", PrepmtVATAmountLine."VAT Base",
-                              PrepmtVATAmountLine."VAT Amount",
-                              PrepmtLineAmount);
+                            //CurrReport.CREATETOTALS(
+                              //PrepmtInvBuf.Amount, PrepmtInvBuf."Amount Incl. VAT",
+                              //PrepmtVATAmountLine."Line Amount", PrepmtVATAmountLine."VAT Base",
+                              //PrepmtVATAmountLine."VAT Amount",
+                              //PrepmtLineAmount);
                         end;
                     }
                     dataitem(PrepmtVATCounter; "Integer")
@@ -973,7 +973,7 @@ report 16035404 "Purchase Order Modified"
 
                     IF Number > 1 THEN
                         CopyText := Text003;
-                    CurrReport.PAGENO := 1;
+                    //CurrReport.PAGENO := 1;
                     OutputNo := OutputNo + 1;
 
                     TotalSubTotal := 0;

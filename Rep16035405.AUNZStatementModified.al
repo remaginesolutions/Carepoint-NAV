@@ -71,9 +71,9 @@ report 16035405 "AU/NZ Statement Modified"
                 column(DataItem6836__No__; DataItem6836."No.")
                 {
                 }
-                column(CurrReport_PAGENO; CurrReport.PAGENO)
-                {
-                }
+                //column(CurrReport_PAGENO; CurrReport.PAGENO)
+                //{
+                //}
                 column(CurrencyLabel; CurrencyLabel)
                 {
                 }
@@ -695,7 +695,7 @@ report 16035405 "AU/NZ Statement Modified"
                     "Last Statement No." := 1
                 ELSE
                     "Last Statement No." := "Last Statement No." + 1;
-                CurrReport.PAGENO := 1;
+                //CurrReport.PAGENO := 1;
 
                 FormatAddress.Customer(CustomerAddress, DataItem6836);
                 LedgEntryLast := 0;

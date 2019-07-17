@@ -128,9 +128,9 @@ report 16035418 "NDIS Clients Overview"
 
             trigger OnPreDataItem()
             begin
-                CurrReport.CREATETOTALS(
-                  PeriodBeginBalance, PeriodDebitAmt, PeriodCreditAmt, YTDBeginBalance,
-                  YTDDebitAmt, YTDCreditAmt, YTDTotal);
+                //CurrReport.CREATETOTALS(
+                  //PeriodBeginBalance, PeriodDebitAmt, PeriodCreditAmt, YTDBeginBalance,
+                  //YTDDebitAmt, YTDCreditAmt, YTDTotal);
             end;
         }
     }

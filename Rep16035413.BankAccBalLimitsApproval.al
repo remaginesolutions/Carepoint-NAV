@@ -20,9 +20,9 @@ report 16035413 "Bank Acc. Bal. Limits Approval"
             column(COMPANYNAME; COMPANYNAME)
             {
             }
-            column(CurrReport_PAGENO; CurrReport.PAGENO)
-            {
-            }
+            //column(CurrReport_PAGENO; CurrReport.PAGENO)
+            //{
+            //}
             column(PrintAmountsInLCY; PrintAmountsInLCY)
             {
             }
@@ -152,7 +152,7 @@ report 16035413 "Bank Acc. Bal. Limits Approval"
 
             trigger OnPreDataItem()
             begin
-                CurrReport.CREATETOTALS("Balance (LCY)");
+                //CurrReport.CREATETOTALS("Balance (LCY)");
             end;
         }
     }

@@ -18,9 +18,9 @@ report 16035421 "Carepoint Trial Balance"
             column(STRSUBSTNO_Text000_PeriodText_; STRSUBSTNO(Text000, PeriodText))
             {
             }
-            column(CurrReport_PAGENO; CurrReport.PAGENO)
-            {
-            }
+            //column(CurrReport_PAGENO; CurrReport.PAGENO)
+            //{
+            //}
             column(COMPANYNAME; COMPANYPROPERTY.DISPLAYNAME)
             {
             }

@@ -27,9 +27,9 @@ report 16035402 "Remittance Advice Non-Sum"
             column(FORMAT_TODAY_0_4_; FORMAT(TODAY, 0, 4))
             {
             }
-            column(CurrReport_PAGENO; CurrReport.PAGENO)
-            {
-            }
+            //column(CurrReport_PAGENO; CurrReport.PAGENO)
+            //{
+            //}
             column(USERID; USERID)
             {
             }

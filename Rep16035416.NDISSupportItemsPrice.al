@@ -14,9 +14,9 @@ report 16035416 "NDIS Support Items Price"
         dataitem(DataItem5508; "Resource")
         {
             RequestFilterFields = Type, "No.";
-            column(StrsubsnoFormatRepPageNo; STRSUBSTNO(Text003, FORMAT(CurrReport.PAGENO)))
-            {
-            }
+            //column(StrsubsnoFormatRepPageNo; STRSUBSTNO(Text003, FORMAT(CurrReport.PAGENO)))
+            //{
+            //}
             column(CompanyAddr1; CompanyAddr[1])
             {
             }

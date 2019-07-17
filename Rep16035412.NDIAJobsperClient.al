@@ -124,13 +124,13 @@ report 16035412 "NDIA Jobs per Client"
 
                 trigger OnPreDataItem()
                 begin
-                    CurrReport.CREATETOTALS(Amt[1], Amt[2], Amt[3], Amt[4]);
+                    //CurrReport.CREATETOTALS(Amt[1], Amt[2], Amt[3], Amt[4]);
                 end;
             }
 
             trigger OnPreDataItem()
             begin
-                CurrReport.CREATETOTALS(Amt);
+                //CurrReport.CREATETOTALS(Amt);
             end;
         }
     }

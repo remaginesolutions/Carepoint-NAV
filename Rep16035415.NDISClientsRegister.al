@@ -19,9 +19,9 @@ report 16035415 "NDIS Clients Register"
             column(COMPANYNAME; COMPANYNAME)
             {
             }
-            column(CurrReport_PAGENO; CurrReport.PAGENO)
-            {
-            }
+            //column(CurrReport_PAGENO; CurrReport.PAGENO)
+            //{
+            //}
             column(PrintAmountsInLCY; PrintAmountsInLCY)
             {
             }
@@ -185,13 +185,13 @@ report 16035415 "NDIS Clients Register"
                 trigger OnPreDataItem()
                 begin
                     SETRANGE("Entry No.", DataItem9922."From Entry No.", DataItem9922."To Entry No.");
-                    CurrReport.CREATETOTALS(CustAmountLCY, CustDebitAmountLCY, CustCreditAmountLCY);
+                    //CurrReport.CREATETOTALS(CustAmountLCY, CustDebitAmountLCY, CustCreditAmountLCY);
                 end;
             }
 
             trigger OnPreDataItem()
             begin
-                CurrReport.CREATETOTALS(CustAmountLCY, CustDebitAmountLCY, CustCreditAmountLCY);
+                //CurrReport.CREATETOTALS(CustAmountLCY, CustDebitAmountLCY, CustCreditAmountLCY);
             end;
         }
     }
