@@ -1643,9 +1643,6 @@ End Function</Code>
         <Field Name="STRSUBSTNO_Text004_PreviousStartDate_">
           <DataField>STRSUBSTNO_Text004_PreviousStartDate_</DataField>
         </Field>
-        <Field Name="STRSUBSTNO_Text005_CurrReport_PAGENO_">
-          <DataField>STRSUBSTNO_Text005_CurrReport_PAGENO_</DataField>
-        </Field>
         <Field Name="PageCaption">
           <DataField>PageCaption</DataField>
         </Field>
@@ -1663,9 +1660,6 @@ End Function</Code>
         </Field>
         <Field Name="Text006">
           <DataField>Text006</DataField>
-        </Field>
-        <Field Name="G_L_Account__GETFILTER">
-          <DataField>G_L_Account__GETFILTER</DataField>
         </Field>
         <Field Name="G_L_Account__No__">
           <DataField>G_L_Account__No__</DataField>

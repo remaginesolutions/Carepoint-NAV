@@ -3675,9 +3675,6 @@ ht0tulsixSHjllxgngdR2FSDw3pw0f8As7+z7L+zyMfZfIXycZz9zGOvPSrtFT7Gmtora23Tt6BZEOn6
         <Field Name="BuyFromAddr_6_">
           <DataField>BuyFromAddr_6_</DataField>
         </Field>
-        <Field Name="STRSUBSTNO_Text005_FORMAT_CurrReport_PAGENO__">
-          <DataField>STRSUBSTNO_Text005_FORMAT_CurrReport_PAGENO__</DataField>
-        </Field>
         <Field Name="BuyFromAddr_3_">
           <DataField>BuyFromAddr_3_</DataField>
         </Field>

@@ -4918,9 +4918,6 @@ End Function
         <Field Name="DataItem6836__No__">
           <DataField>DataItem6836__No__</DataField>
         </Field>
-        <Field Name="CurrReport_PAGENO">
-          <DataField>CurrReport_PAGENO</DataField>
-        </Field>
         <Field Name="CurrencyLabel">
           <DataField>CurrencyLabel</DataField>
         </Field>

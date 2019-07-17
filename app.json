@@ -4,7 +4,7 @@
   "publisher": "Remagine Solutions Pty Ltd",
   "brief": "",
   "description": "",
-  "version": "1.0.0.2",
+  "version": "1.0.0.3",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -15,6 +15,7 @@
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
+  "showMyCode": true,
   "idRange": {
     "from": 1,
     "to": 999999999
